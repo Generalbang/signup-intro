@@ -1,0 +1,105 @@
+@media screen and (max-width:800px){
+    .container{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+    }
+    .words{text-align: center;}
+}
+
+body{
+    background-image: url(./images/bg-intro-desktop.png);
+    background-color: lightcoral;
+    color: white;
+}
+.container{
+    padding: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.words{
+    width: 100vw;
+    padding: 5px 5px 50px 5px ;
+}
+h2{
+    font-size: 38px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+
+.side{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    /* height: 100vh; */
+    border-radius: 8px;
+}
+.sub{
+    margin: 4%;
+    background-color: rgb(48, 48, 133);
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    
+}
+.sub a{
+    text-decoration: none;
+    color: white;
+    padding-right: 5px;
+    font-weight: bolder;
+}
+form{
+    display: grid;
+    gap: 15px;
+    padding: 4%;
+    grid-template-columns: 1fr;
+}
+form div{
+    color: rgb(160, 152, 152);
+
+}
+input{
+    
+    height: 40px;
+    border-radius: 8px;
+    border: 1px solid lightgray;
+    padding: 0 19px;
+}
+/* input:cli{
+    border-color: black;
+} */
+.container a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.side form a{
+    text-decoration: none;
+    color: red;
+    padding-left: 5px;
+}
+.try{
+    font-weight: bolder;
+}
+.submit{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 600;
+    color: aliceblue;
+    background-color: rgb(49, 131, 49);
+    border: 1px solid rgb(49, 131, 49);
+    cursor: pointer;
+}
+
+
+.msg{
+    color: red;
+    font-weight: bolder;
+}
